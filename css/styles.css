@@ -1,4 +1,33 @@
 body {
     font-family: sans-serif;
     text-align: center;
+    line-height: 35px;
+    background-image: url(/images/peacock.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    font-size: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 30px;
+    color: thistle;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: teal;
+}
+
+img {
+    margin-left: 0 auto;
+    margin-right: 0 auto;
 }
